@@ -200,6 +200,21 @@ Google Mpas -aerial view api
 
 *Pseudo Code*
 
+Navbar (Homepage|Contact us | Jumbotron/ Main Heading)
+
+Bootstrap cards (Disabling cards once a user has selcted them) (Counter to keep track of how many card you have left) (Once a user refreshed the page, the card is either hidden or disabled and moved to the bottom of the lsit. Whilst the unseen cards come to the top) 
+
+Test if user presses back rather then using the button or copies the initial link, where does it take them) 
+
+9 links to pages (Make 9 pages) (Timer on the link)
+
+2 Api's (Google Aerial view/ Wikipedia) 
+
+Footer contact 
+
+Jumbotron/ Main heading 
+
+
 
 
  
