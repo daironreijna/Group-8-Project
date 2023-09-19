@@ -194,15 +194,15 @@ Weather API with Flicker image or Giphy of major cities quiz (Capital cities)
 
 Monuments - Country Quiz - 
 
-Google Mpas -aerial view api 
+Google Maps -aerial view API 
 
-**Land Mark Info - Page (google maps api, Wikipedia page api)** 
+**Land Mark Info - Page (Google Maps API, Wikipedia Page API)** 
 
-*Pseudo Code*
+# *Pseudo Code*
 
 Navbar (Homepage|Contact us | Jumbotron/ Main Heading)
 
-Bootstrap cards (Disabling cards once a user has selcted them) (Counter to keep track of how many card you have left) (Once a user refreshed the page, the card is either hidden or disabled and moved to the bottom of the lsit. Whilst the unseen cards come to the top) 
+Bootstrap cards (Disabling cards once a user has selected them) (Counter to keep track of how many card you have left) (Once a user refreshed the page, the card is either hidden or disabled and moved to the bottom of the lsit. Whilst the unseen cards come to the top) 
 
 Test if user presses back rather then using the button or copies the initial link, where does it take them) 
 
@@ -213,6 +213,18 @@ Test if user presses back rather then using the button or copies the initial lin
 Footer contact 
 
 Jumbotron/ Main heading 
+
+## USER VIEW OF PAGE
+- consider how the images show up on the cards, and if we will use all the same cards. Or a mixture top/mid/bottom.
+- what color scheme are we going for in terms of the look and feel of the website.
+- what is the user story?
+- 
+## DEVELOPER TASKS
+- ensure that website works on different screen sizes (media query)
+- how does the styling of the design look like once you change size of the webpage.
+
+## FUNCTIONs,TOOLS etc NEEDED TO EXECUTE
+
 
 
 
