@@ -178,3 +178,28 @@ In today's class, you'll continue working on your project.
 By the end of class, you'll have done the following:
 
 - Progressed towards building the MVP of your project.
+- 
+
+**IDEAS**
+
+Trivia Quiz API: (Soundcloud api, giphy api)
+
+Bitcoin daily market update API
+
+Hang Man 
+
+Geo Guesser Quiz 
+
+Weather API with Flicker image or Giphy of major cities quiz (Capital cities) 
+
+Monuments - Country Quiz - 
+
+Google Mpas -aerial view api 
+
+**Land Mark Info - Page (google maps api, Wikipedia page api)** 
+
+*Pseudo Code*
+
+
+
+ 
