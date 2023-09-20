@@ -207,9 +207,11 @@ Collaborators: Kapil, Ishmam and Dairon.
 Date: 19th Sept 2023.
 
 ```javascript
-Important to take the time to consider how the website will work from multiple perspectives. How will the user interact with the website, what do they need to see, understand and what do we expect them to do.
+Important to take the time to consider how the website will work from multiple perspectives.
+How will the user interact with the website, what do they need to see, understand and what do we expect them to do.
 Then with that understanding, what do I as a Front End developer need to complete on a high level, in order to achieve that.
-Subsequently, what programming tools, concepts, functions etc. do I need to use to achieve that, and can I start coding out a bit under each point. I can review the past week(s) material to get a clue on how to code the initial bits.
+Subsequently, what programming tools, concepts, functions etc. do I need to use to achieve that, and can I start coding out a bit under each point.
+I can review the past week(s) material to get a clue on how to code the initial bits.
 
 ````
 
