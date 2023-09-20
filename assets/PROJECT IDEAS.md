@@ -1,4 +1,22 @@
-Certainly! Here are some potential project ideas for Project 1, using the resources mentioned in the module:
+**IDEAS**
+
+Trivia Quiz API: (Soundcloud api, giphy api)
+
+Bitcoin daily market update API
+
+Hang Man 
+
+Geo Guesser Quiz 
+
+Weather API with Flicker image or Giphy of major cities quiz (Capital cities) 
+
+Monuments - Country Quiz - 
+
+Google Maps -aerial view API 
+
+**Land Mark Info - Page (Google Maps API, Wikipedia Page API)** 
+
+Here are some potential project ideas for Project 1, using the resources mentioned in the module:
 
 1. **Weather Dashboard with Multiple API Integrations:**
 
@@ -102,4 +120,4 @@ Based on the list of free APIs that don't require CORS mentioned in the blog pos
    - **Technologies:** Utilize the Giphy API, HTML, CSS, and JavaScript for the user interface.
    - **Features:** Let users search for GIFs by keywords, display GIFs, and provide options to copy or share them.
 
-These project ideas leverage APIs that don't require CORS, making it easier to access external data and integrate it into your front-end applications. You can choose any of these ideas for your group project and follow the technical and collaboration guidelines outlined in your module.
+These project ideas leverage APIs that don't require CORS, making it easier to access external data and integrate it into your front-end applications. We can choose any of these ideas for your group project and follow the technical and collaboration guidelines outlined in your module.
