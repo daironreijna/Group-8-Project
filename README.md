@@ -115,7 +115,9 @@ Use this [Project Presentation Template](https://docs.google.com/presentation/d/
 - [W3Schools (n.d.) Git Tutorial > Git Branch Merge](https://www.w3schools.com/git/git_branch_merge.asp)
 - [Zell Liew (2019) How I style my websites with my favorite CSS resets](  https://www.freecodecamp.org/news/how-i-style-my-websites-with-my-favorite-css-resets-7ace41dbc43d/)
 - [edx (2023) Full Stack Blog - server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
-
+- [Bird Call UX (2021) What is UX, UI and Usability?](https://www.birdcallux.com/blog/what-is-ux-ui-and-usability)
+- [WikiMedia API Portal (n.d.) Getting Started with Wikimedia APIs](https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs)
+- [Wikimedia (n.d.) API catalog > Browse all Wikimedia APIs.](https://api.wikimedia.org/wiki/API_catalog)
 </i>
 
 
