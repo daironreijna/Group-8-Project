@@ -118,6 +118,8 @@ Use this [Project Presentation Template](https://docs.google.com/presentation/d/
 - [Bird Call UX (2021) What is UX, UI and Usability?](https://www.birdcallux.com/blog/what-is-ux-ui-and-usability)
 - [WikiMedia API Portal (n.d.) Getting Started with Wikimedia APIs](https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs)
 - [Wikimedia (n.d.) API catalog > Browse all Wikimedia APIs.](https://api.wikimedia.org/wiki/API_catalog)
+-[ StackOverFlow (2017 updated 2023) Why is .gitignore not ignoring my files? ](https://stackoverflow.com/questions/45400361/why-is-gitignore-not-ignoring-my-files)
+-[Tim Wheeler (2018) Wikipedia API Tutorial Here's a crash course on APIs using the Wikipedia API. Get a grasp on how to use APIs for your application.](https://codesnippet.io/wikipedia-api-tutorial/)
 </i>
 
 
