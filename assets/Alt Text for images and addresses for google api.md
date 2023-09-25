@@ -22,12 +22,17 @@
     - Google maps: Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ, Brazil -or- 2QXQ+6QG Rio de Janeiro, State of Rio de Janeiro, Brazil -or- 2QXQ+8J Rio de Janeiro, State of Rio de Janeiro, Brazil -or- Estr. Redentor - Alto da Boa Vista, Rio de Janeiro - RJ, 20531-540, Brazil -or- 2QXQ+FR Alto da Boa Vista, Rio de Janeiro - State of Rio de Janeiro, Brazil
 
 - Empire_State_Building
+    - "videoId": "UTW_PvYHo05VUEUF-ql2VS"
+    - "videoId": "4GffbFe2UWi3G5izNvvfsz"
+    - "videoId": "GP0BBbdUhoehhHtg_TW3gG"
     - {"description":"Office skyscraper in Manhattan, New York"}
     - Location: 350 Fifth Avenue, New York, NY 10118
     - Coordinates: 40°44′54″N 73°59′07″W
     - Google maps: Empire State Building, New York, NY 10001, USA -or- P2X7+8VQ New York, USA
 
 - Golden_Gate_Bridge
+    - "videoId": "OO8TCisM-DtMdWkD0f7vgl"
+    - "videoId": "-L_KLr9hnYY7tzfaI2K6Gc"
     - {"description":"San Francisco Bay suspension bridge"}
     - Coordinates: 37°49′11″N 122°28′43″W
     - Locale:	San Francisco, California and Marin County, California, U.S.
@@ -45,6 +50,7 @@
     - Google maps: (see below)
 
 - Horseshoe_Falls:
+    - Google Aerial "videoId": "d2NnDjaK6jQyPA2Ju4ifSj"
     - {"description":"Largest portion of Niagara Falls on the United States–Canada border"} 
     - Location: Border of Ontario, Canada, and New York, United States. Canada to the right in the photo.
     - Coordinates: 43°04′38″N 79°04′32″W

@@ -131,7 +131,14 @@ Use this [Project Presentation Template](https://docs.google.com/presentation/d/
 - [Google Maps Platform (2023) Aerial View API > Lets you create and display aerial view videos rendered using Google's 3D geospatial imagery](https://developers.google.com/maps/documentation/aerial-view/)
 - [MDN Web Docs (n.d.) References > Web APIs > Fetch API > Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [MDN Web Docs (n.d.) References > Web APIs > fetch() global function](https://developer.mozilla.org/en-US/docs/Web/API/Fetch)
-
+[StackTuts (2023) How to use fetch within a for-loop, wait for results and then console.log it in Javascript](https://stacktuts.com/how-to-use-fetch-within-a-for-loop-wait-for-results-and-then-console-log-it-in-javascript)
+- [Google Maps Platform (2023) Architecture Center > Visualize the Data > Engage Customers with Aerial View](https://developers.google.com/maps/architecture/engage-customers-with-aerial-view?hl=en)
+- [Material Design (n.d.) Choosing buttons](https://m3.material.io/components/all-buttons)
+- [Google Maps Platform (2023) Architecture Center > Enhance the accuracy of Address input for Aerial View](https://developers.google.com/maps/architecture/enhance-accuracy-address-aerial-view?hl=en)
+- [Google Maps Platform (2023) Best Practices Using Aerial View API Web Services](https://developers.google.com/maps/documentation/aerial-view/web-api-best-practices)
+- [Google Maps Platform (2023) API Improvement Proposals > General AIPs  > HTTP and gRPC Transcoding](https://google.aip.dev/127)
+- [Matt Brightman (2023) The Aerial View API is now generally available. Google Maps Platform.](https://cloud.google.com/blog/products/maps-platform/aerial-view-api-now-generally-available) 
+-[Using the Fetch API with URLSearchParams in JavaScript](https://www.youtube.com/watch?v=BOQ9mmUd3dI)
 </i>
 
 
