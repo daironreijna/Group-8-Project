@@ -120,6 +120,18 @@ Use this [Project Presentation Template](https://docs.google.com/presentation/d/
 - [Wikimedia (n.d.) API catalog > Browse all Wikimedia APIs.](https://api.wikimedia.org/wiki/API_catalog)
 -[ StackOverFlow (2017 updated 2023) Why is .gitignore not ignoring my files? ](https://stackoverflow.com/questions/45400361/why-is-gitignore-not-ignoring-my-files)
 -[Tim Wheeler (2018) Wikipedia API Tutorial Here's a crash course on APIs using the Wikipedia API. Get a grasp on how to use APIs for your application.](https://codesnippet.io/wikipedia-api-tutorial/)
+- [Wikimedia API portal (2023, June 16th) Core REST API - Discover and interact with free knowledge from across Wikimedia projects.](https://api.wikimedia.org/wiki/Core_REST_API)
+- [Google Maps Platform (2023) How does the Aerial View API work?](https://m.youtube.com/watch?v=Yor-AynWN2w)
+- [Google Maps Platform (2020) Intro to Google Maps Platform](https://m.youtube.com/watch?v=kA679ERgBV4)
+- [Nicole Sauk (2021) How to Get a Google Maps API Key - Quick, Easy, and Free](https://m.youtube.com/watch?v=rREAme4P1u0)
+- [Google Maps Platform (2023) Announcing Photorealistic 3D Tiles and the Aerial View API to create immersive map experiences](https://m.youtube.com/watch?v=Yj11hdq2jgA)
+- [Google Maps Platform (2023) How to use data-driven, advanced styling capabilities to build immersive geospatial experiences](https://m.youtube.com/watch?v=5dAqwpNJbnw)
+- [Net Ninja (2021) Bootstrap 5 Crash Course Tutorial #16 - Modals](https://www.youtube.com/watch?v=tt5uUMQgzl0)
+- [Google Maps Platform (2023, 21 Sept) Documentation > Aerial View API overview](https://developers.google.com/maps/documentation/aerial-view/overview)
+- [Google Maps Platform (2023) Aerial View API > Lets you create and display aerial view videos rendered using Google's 3D geospatial imagery](https://developers.google.com/maps/documentation/aerial-view/)
+- [MDN Web Docs (n.d.) References > Web APIs > Fetch API > Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [MDN Web Docs (n.d.) References > Web APIs > fetch() global function](https://developer.mozilla.org/en-US/docs/Web/API/Fetch)
+
 </i>
 
 
