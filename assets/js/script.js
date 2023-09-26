@@ -16,9 +16,9 @@
 
 const myModal = document.getElementById('myModal');
 const myInput = document.getElementById('myInput');
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-});
+// myModal.addEventListener('shown.bs.modal', () => {
+//   myInput.focus()
+// });
 
 //TODO Change from any button click to specific buttons
 $("button").on("click", function () {
@@ -26,7 +26,7 @@ $("button").on("click", function () {
 
   // alert($(this).attr("data-landmark"))
   let wikiAPIURL = `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${landmark}&limit=1`
-  
+
   $("#The-cards").hide()
 
   $("#Home").hide()
@@ -40,12 +40,17 @@ $("button").on("click", function () {
       return response.json();
     })
     .then(function (data) {
+      console.log(data)
       // Storing an array of results in the results variable
-      let results = data.pages.excerpt;
+      let results = data.pages[0].excerpt;
 
-      console.log(results);
-      
+      $('#wikiContainer').html(`${results}.... <a href="https://en.wikipedia.org/wiki/${landmark}" target="_blank" rel="noopener noreferrer">Visit Wikipedia Page</a>  to find out more about this landmark.`);
 
     })
 
 })
+
+  id = "videoContainer" 
+  id="wikiContainer"
+  id = "modalTitle"
+  id="closeModal"
