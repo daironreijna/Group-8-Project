@@ -129,6 +129,7 @@ Our project has the following features:
 - [Google Maps Platform (2023) API Improvement Proposals > General AIPs  > HTTP and gRPC Transcoding](https://google.aip.dev/127)
 - [Matt Brightman (2023) The Aerial View API is now generally available. Google Maps Platform.](https://cloud.google.com/blog/products/maps-platform/aerial-view-api-now-generally-available) 
 - [Using the Fetch API with URLSearchParams in JavaScript](https://www.youtube.com/watch?v=BOQ9mmUd3dI)
+- [Kris Koishigawa (2020) How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/)
 </i>
 
 
