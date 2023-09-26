@@ -7,14 +7,14 @@ var config = {
 let googleviewAPIKey = config.googleAPIKEY
 
 // video look up meta data
-// "https://aerialview.googleapis.com/v1/videos:lookupVideoMetadata?key=AIzaSyAY2m_uEw1dDg2RtZbiQP9rBQ1c7ZMeO44&address=600%20Montgomery%20St%2C%20San%20Francisco%2C%20CA%2094111"
+// "https://aerialview.googleapis.com/v1/videos:lookupVideoMetadata?key=${googleviewAPIKey}&address=${address}"
 
 // video look up 
-// https://aerialview.googleapis.com/v1/videos:lookupVideo?key=AIzaSyAY2m_uEw1dDg2RtZbiQP9rBQ1c7ZMeO44&videoId=Ul1naoFmqo69U1zUVrQRkc"
+// https://aerialview.googleapis.com/v1/videos:lookupVideo?key=${googleviewAPIKey}&videoId=${videoID}"
 
 // render video if it does not exist
-/*$ curl -X POST -d '{                                                                                                                                                          "address": "JW88+PJ5, AlUla 43562, Saudi Arabia"
-}' -H 'Content-Type: application/json' "https://aerialview.googleapis.com/v1/videos:renderVideo?key=AIzaSyAY2m_uEw1dDg2RtZbiQP9rBQ1c7ZMeO44"
+/*$ curl -X POST -d '{ "address": "JW88+PJ5, AlUla 43562, Saudi Arabia"
+}' -H 'Content-Type: application/json' "https://aerialview.googleapis.com/v1/videos:renderVideo?key=${googleviewAPIKey}"
 */
 
 
