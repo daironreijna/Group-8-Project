@@ -27,9 +27,11 @@ $("button").on("click", function () {
   // alert($(this).attr("data-landmark"))
   let wikiAPIURL = `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${landmark}&limit=1`
 
-  $("#The-cards").hide()
+  // $("#The-cards").hide()
 
-  $("#Home").hide()
+  // $("#Home").hide()
+
+  // $("#contact").hide()
 
   // window.location.href="index.html";
 
@@ -44,7 +46,7 @@ $("button").on("click", function () {
       // Storing an array of results in the results variable
       let results = data.pages[0].excerpt;
 
-      $('#wikiContainer').html(`${results}.... <a href="https://en.wikipedia.org/wiki/${landmark}" target="_blank" rel="noopener noreferrer">Visit Wikipedia Page</a>  to find out more about this landmark.`);
+      $('#wikiContainer').html(`${results}.... <a href="https://en.wikipedia.org/wiki/${landmark}" target="_blank" rel="noopener noreferrer">Visit the Wikipedia Page</a>  to find out more about this landmark.`);
 
     })
 
@@ -54,3 +56,10 @@ $("button").on("click", function () {
   id="wikiContainer"
   id = "modalTitle"
   id="closeModal"
+
+    // $("#closeModal").on("click", function () {
+    //   $("#The-cards").show()
+
+    //   $("#Home").show()
+    
+    //   $("#contact").show() })
