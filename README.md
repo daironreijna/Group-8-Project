@@ -13,26 +13,31 @@ The project team has used the skills and knowledge acquired during the bootcamp 
 
 <b><i><span style="color:#800020">Landmark Learning </span></b></i> solves a real-world problem by integrating data received from multiple server-side API requests.
 
---! say a bit more here about the project specifics, the technology, the why,what and how!--
+In this project several technologies are used to bring a feature rich and exciting web project to life! As a project team we thought about what would be a interesting way to guide users into exploring the world a bit more. After a few [PROJET IDEAS](./assets/PROJECT%20IDEAS.md) were brainstormed, we choose to implement two server side api's. Google's [Aerial View API](https://developers.google.com/maps/documentation/aerial-view) and Wikipedia's [Wikimedia API](https://api.wikimedia.org/wiki/Main_Page) to render a dynamic, responsive and interactive project.
 
 ```
 USER STORY
-what problem does this project solve?
+
+As a user interested in exploring landmarks around the world, I want to use the Landmark Learning Dashboard to access information about various landmarks and view aerial videos of these landmarks. This will allow me to expand my knowledge about different places and have a visually engaging experience.
+
 ```
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Project Objectives](#project-objectives)
+- [Deployment](#deployment)
 - [Project Features](#project-features)
-- [Presentation](#presentation)
+- [Contributing](#contributing)
 - [Resources](#resources)
+- [Accessibility Testing](#accessibility-testing)
+- [Licence](#license)
 
 ### Project Objectives
 
 By the end of this project, we have been be able to:
 
-- Speak technically about the features that were implemented in our project.
+- Our ability to speak technically about the features that were implemented in our project.
 - Explain and execute git branching workflow in a collaborative project.
 - Resolve merge conflicts.
 - Explain agile software development.
@@ -42,18 +47,18 @@ By the end of this project, we have been be able to:
 
 ## Deployment
 
-The Weather Dashboard Challenge is deployed at the following live URL:
+The Landmark Learning Dashboard Project is deployed at the following live URL:
 
-[Weather Outlook Dashboard Live Demo](weather-outlook-dashboard.vercel.app)
+[Landmark Learning Dashboard](https://daironreijna.github.io/Landmark-Learning-API)
 
 The GitHub repository for this project can be found at:
 
-[GitHub Repository](https://github.com/daironreijna/Weather-Outlook-Dashboard)
+[GitHub Repository](https://github.com/daironreijna/Landmark-Learning-API)
 
 <br>
 <u>In order to use this webapp, you will need to </u>
 
-1. Create your own API key by visiting https://openweathermap.org/api
+1. Create your own API key by visiting https://developers.google.com/maps/documentation/aerial-view/get-api-key 
 2. Create a config.js file in the asset/js folder
 3. Save the API key in the below format
 
@@ -94,21 +99,6 @@ Our project has the following features:
 - Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class/id naming conventions, indentation, quality comments, and so on).
 - Have a quality README (including a unique name, description, technologies used, screenshot, and link to the deployed application).
 
-### Presentation
-Use this [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing). to address the following:
-
-- Application should be a unique and novel idea.
-- Your group should clearly and concisely articulate your project idea.
-
-- Elevator pitch: A one-minute description of your application.
-- Concept: What is your user story? What was your motivation for development?
-- Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
-- Demo: Show your stuff!
-- Directions for future development.
-- Links to the deployed application and the GitHub repository.
-
-
-
 ## <u>Resources</u>
 
 - <i>[DAVE MCKAY (2022) How to Rename a Branch in Git](https://www.howtogeek.com/851425/git-rename-branch/)
@@ -118,8 +108,8 @@ Use this [Project Presentation Template](https://docs.google.com/presentation/d/
 - [Bird Call UX (2021) What is UX, UI and Usability?](https://www.birdcallux.com/blog/what-is-ux-ui-and-usability)
 - [WikiMedia API Portal (n.d.) Getting Started with Wikimedia APIs](https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs)
 - [Wikimedia (n.d.) API catalog > Browse all Wikimedia APIs.](https://api.wikimedia.org/wiki/API_catalog)
--[ StackOverFlow (2017 updated 2023) Why is .gitignore not ignoring my files? ](https://stackoverflow.com/questions/45400361/why-is-gitignore-not-ignoring-my-files)
--[Tim Wheeler (2018) Wikipedia API Tutorial Here's a crash course on APIs using the Wikipedia API. Get a grasp on how to use APIs for your application.](https://codesnippet.io/wikipedia-api-tutorial/)
+- [ StackOverFlow (2017 updated 2023) Why is .gitignore not ignoring my files? ](https://stackoverflow.com/questions/45400361/why-is-gitignore-not-ignoring-my-files)
+- [Tim Wheeler (2018) Wikipedia API Tutorial Here's a crash course on APIs using the Wikipedia API. Get a grasp on how to use APIs for your application.](https://codesnippet.io/wikipedia-api-tutorial/)
 - [Wikimedia API portal (2023, June 16th) Core REST API - Discover and interact with free knowledge from across Wikimedia projects.](https://api.wikimedia.org/wiki/Core_REST_API)
 - [Google Maps Platform (2023) How does the Aerial View API work?](https://m.youtube.com/watch?v=Yor-AynWN2w)
 - [Google Maps Platform (2020) Intro to Google Maps Platform](https://m.youtube.com/watch?v=kA679ERgBV4)
@@ -131,14 +121,14 @@ Use this [Project Presentation Template](https://docs.google.com/presentation/d/
 - [Google Maps Platform (2023) Aerial View API > Lets you create and display aerial view videos rendered using Google's 3D geospatial imagery](https://developers.google.com/maps/documentation/aerial-view/)
 - [MDN Web Docs (n.d.) References > Web APIs > Fetch API > Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [MDN Web Docs (n.d.) References > Web APIs > fetch() global function](https://developer.mozilla.org/en-US/docs/Web/API/Fetch)
-[StackTuts (2023) How to use fetch within a for-loop, wait for results and then console.log it in Javascript](https://stacktuts.com/how-to-use-fetch-within-a-for-loop-wait-for-results-and-then-console-log-it-in-javascript)
+- [StackTuts (2023) How to use fetch within a for-loop, wait for results and then console.log it in Javascript](https://stacktuts.com/how-to-use-fetch-within-a-for-loop-wait-for-results-and-then-console-log-it-in-javascript)
 - [Google Maps Platform (2023) Architecture Center > Visualize the Data > Engage Customers with Aerial View](https://developers.google.com/maps/architecture/engage-customers-with-aerial-view?hl=en)
 - [Material Design (n.d.) Choosing buttons](https://m3.material.io/components/all-buttons)
 - [Google Maps Platform (2023) Architecture Center > Enhance the accuracy of Address input for Aerial View](https://developers.google.com/maps/architecture/enhance-accuracy-address-aerial-view?hl=en)
 - [Google Maps Platform (2023) Best Practices Using Aerial View API Web Services](https://developers.google.com/maps/documentation/aerial-view/web-api-best-practices)
 - [Google Maps Platform (2023) API Improvement Proposals > General AIPs  > HTTP and gRPC Transcoding](https://google.aip.dev/127)
 - [Matt Brightman (2023) The Aerial View API is now generally available. Google Maps Platform.](https://cloud.google.com/blog/products/maps-platform/aerial-view-api-now-generally-available) 
--[Using the Fetch API with URLSearchParams in JavaScript](https://www.youtube.com/watch?v=BOQ9mmUd3dI)
+- [Using the Fetch API with URLSearchParams in JavaScript](https://www.youtube.com/watch?v=BOQ9mmUd3dI)
 </i>
 
 
