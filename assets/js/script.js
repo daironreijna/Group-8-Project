@@ -21,6 +21,8 @@ $("button").on("click", function () {
 
   $("#Home").hide()
 
+  $("#data-landmark").show()
+
   // window.location.href="index.html";
 
   // Performing our Fetch GET request
@@ -35,9 +37,31 @@ $("button").on("click", function () {
 
       console.log(results);
 
+      // Creating and storing a div tag
+      var landmarkDiv = $("<div>");
 
+      // Creating a paragraph tag with the result item's rating
+      var p = $("<p>").text("Landmark: " + results.excerpt);
+
+      // // Creating and storing an image tag
+      // var landmarkImage = $("<img>");
+      // // Setting the src attribute of the image to a property pulled off the result item
+      // landmarkImage.attr("src", results[i].images.fixed_height.url);
+
+      // Appending the paragraph and image tag to the landmarkDiv
+      landmarkDiv.append(p);
+      // landmarkDiv.append(landmarkImage);
+
+      // Prependng the landmarkDiv to the HTML page in the "#gifs-appear-here" div
+      $("#data-landmark").prepend(landmarkDiv);
+
+      for (const page of data.pages) {
+        console.log(page.excerpt);
+        // window.show(page.excerpt)
+    }
+      
     })
-
+    
 })
 
 
