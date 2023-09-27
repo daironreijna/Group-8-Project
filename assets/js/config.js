@@ -2,22 +2,20 @@ var config = {
     googleAPIKEY: "PUT YOUR KEY HERE"
     
 
-}
+} 
 
 let googleviewAPIKey = config.googleAPIKEY
 
 // video look up meta data
-// "https://aerialview.googleapis.com/v1/videos:lookupVideoMetadata?key="
+// "https://aerialview.googleapis.com/v1/videos:lookupVideoMetadata?key=${googleviewAPIKey}&address=${address}"
 
 // video look up 
-// https://aerialview.googleapis.com/v1/videos:lookupVideo?key="
+// https://aerialview.googleapis.com/v1/videos:lookupVideo?key=${googleviewAPIKey}&videoId=${videoID}"
 
 // render video if it does not exist
-/*$ curl -X POST -d '{"address": "JW88+PJ5, AlUla 43562, Saudi Arabia"
-}' -H 'Content-Type: application/json' "https://aerialview.googleapis.com/v1/videos:renderVideo?key="
+/*$ curl -X POST -d '{ "address": "JW88+PJ5, AlUla 43562, Saudi Arabia"
+}' -H 'Content-Type: application/json' "https://aerialview.googleapis.com/v1/videos:renderVideo?key=${googleviewAPIKey}"
 */
-
-
 
 //TODO Change from any button click to specific buttons
 //TODO create an event listener on 'close' modal click event, only if still hiding elements.

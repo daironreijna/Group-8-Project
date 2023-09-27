@@ -52,14 +52,8 @@ $("button").on("click", function () {
 
 })
 
+//TODO! use the below ids as needed.
   id = "videoContainer" 
   id="wikiContainer"
   id = "modalTitle"
   id="closeModal"
-
-    // $("#closeModal").on("click", function () {
-    //   $("#The-cards").show()
-
-    //   $("#Home").show()
-    
-    //   $("#contact").show() })
