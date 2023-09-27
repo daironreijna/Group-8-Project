@@ -21,31 +21,31 @@ let googleviewAPIKey = config.googleAPIKEY
 
 //TODO Change from any button click to specific buttons
 //TODO create an event listener on 'close' modal click event, only if still hiding elements.
-$("button").on("click", function () {
-    let videoID = $(this).attr("data-video")
+// $("button").on("click", function () {
+//     let videoID = $(this).attr("data-video")
 
-    // alert($(this).attr("data-landmark"))
-    let googleAPIURL = `https://aerialview.googleapis.com/v1/videos:lookupVideo?key=${googleviewAPIKey}&videoId=${videoID}`;
+//     // alert($(this).attr("data-landmark"))
+//     let googleAPIURL = `https://aerialview.googleapis.com/v1/videos:lookupVideo?key=${googleviewAPIKey}&videoId=${videoID}`;
 
-    // Performing our Fetch GET request
-    fetch(googleAPIURL)
-    // After the data comes back from the API
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (data) {
+//     // Performing our Fetch GET request
+//     fetch(googleAPIURL)
+//     // After the data comes back from the API
+//     .then(function (response) {
+//         return response.json();
+//     })
+//     .then(function (data) {
         
-        // Storing an array of results in the results variable
-        let output = data.uris.MP4_HIGH.landscapeUri;
+//         // Storing an array of results in the results variable
+//         let output = data.uris.MP4_HIGH.landscapeUri;
 
-        const modalContainer = $('#videoContainer')
-        modalContainer.empty()
+//         const modalContainer = $('#videoContainer')
+//         modalContainer.empty()
 
-        // To create video elements
-        const videoElement = $('<video>');
-        videoElement.attr('src', output);
-        videoElement.attr('controls', true);
-        modalContainer.append(videoElement);
+//         // To create video elements
+//         const videoElement = $('<video>');
+//         videoElement.attr('src', output);
+//         videoElement.attr('controls', true);
+//         modalContainer.append(videoElement);
 
-    })
-})
+//     })
+// })
