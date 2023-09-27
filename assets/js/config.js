@@ -1,5 +1,5 @@
 var config = {
-    googleAPIKEY: "SECRET_KEY_GOES_HERE"
+    googleAPIKEY: "AIzaSyAY2m_uEw1dDg2RtZbiQP9rBQ1c7ZMeO44"
     //wikipediaAPIKEY = "SECRET_KEY_GOES_HERE"
 
 }
@@ -29,20 +29,23 @@ $("button").on("click", function () {
 
     // Performing our Fetch GET request
     fetch(googleAPIURL)
-        // After the data comes back from the API
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            
-            // Storing an array of results in the results variable
-            let output = data.uris.MP4_HIGH.landscapeUri;
+    // After the data comes back from the API
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        
+        // Storing an array of results in the results variable
+        let output = data.uris.MP4_HIGH.landscapeUri;
 
-            // To create video elements
-            const videoElement = $('<video>');
-            videoElement.attr('src', output);
-            videoElement.attr('controls', true);
-            $('#videoContainer').append(videoElement);
+        const modalContainer = $('#videoContainer')
+        modalContainer.empty()
 
-        })
+        // To create video elements
+        const videoElement = $('<video>');
+        videoElement.attr('src', output);
+        videoElement.attr('controls', true);
+        modalContainer.append(videoElement);
+
+    })
 })
