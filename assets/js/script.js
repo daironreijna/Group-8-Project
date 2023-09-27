@@ -55,3 +55,4 @@ $("button").on("click", function () {
   id="wikiContainer"
   id = "modalTitle"
   id="closeModal"
+  
