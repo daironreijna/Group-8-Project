@@ -1,5 +1,5 @@
 var config = {
-    googleAPIKEY: "PUT YOUR KEY"
+    googleAPIKEY: "PUT YOUR KEY HERE"
     
 
 }
