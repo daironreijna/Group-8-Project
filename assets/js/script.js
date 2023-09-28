@@ -20,7 +20,7 @@ $("button").on("click", function () {
 
 })
 
-// Saving user email to local storage //
+/// Saving user email to local storage //
 
 // let submitButton = $("#submit-button");
 // $("button").on("click", function(event) { 
