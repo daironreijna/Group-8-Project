@@ -51,7 +51,7 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#Home">Home</a></li>
               <li><a class="dropdown-item" href="#The-cards">Landmarks</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact us</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -109,7 +109,7 @@
             <h5 class="card-title">Niagra Falls</h5>
             <p class="card-text">USA</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
-              data-landmark="Niagara_Falls" id="fetchVideos" data-video="d2NnDjaK6jQyPA2Ju4ifSj">Find out
+              data-landmark="Niagara_Falls" id="fetchVideos viewButton" data-video="d2NnDjaK6jQyPA2Ju4ifSj">Find out
               More!</button>
           </div>
         </div>
@@ -128,9 +128,6 @@
         <div class="modal-body" id="videoContainer">
         </div>
         <div class="modal-footer"></div>
-        <!-- <div class="modal-header">
-          <h1 class="modal-title fs-5" id="wikiTitle">Modal title</h1>
-        </div> -->
         <div class="modal-body fs-3" id="wikiContainer">
         </div>
         <div class="modal-footer">
@@ -141,15 +138,32 @@
   </div>
 
   <footer>
+
     <!-- Contact-->
-    <section class="contact-section bg-grey" id="contact">
+    <div class="signup-section" id="signup">
+      <div class="container">
+        <div class="row">
+          <h4 class="text-uppercase m-0 text-center text-white">---</h4>
+          <div class="col-md-4 col-lg-8 mx-auto text-center">
+            <i class="far fa-paper-plane fa-2x mb-2 text-black"></i>
+            <h3 class="text-black mb-3">Subscribe for updates</h3>
+            <form class="form-inline d-flex">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email"
+                placeholder="Enter email address..." />
+              <button class="btn btn-primary mx-auto" type="submit" id = "subscribe-button" >Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-section bg-grey" id="contact">
  <div class="col-sm-4 col-sm-3 col-sm-12">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Contact Us</h4>
-                <hr class="my-4" />
-                <div class="fw-bold text-black-100"><a>Email: info@landmak-learning.com</a></div>
+                <h3 class="text-black mb-3">Contact Us</h3>
+                <div class="fw-bold text-black-100"><a>Email: info@landmark-learning.com</a></div>
                 <div class="fw-bold text-black-100"><a>Tel:  0121 000 0000</a></div>
                 <div class="container text-center">
                   <p>&copy; Landmark-Learning 2023. All Rights Reserved.</p>
@@ -157,7 +171,10 @@
             </div>
           </div>
       </div>
-    </section>
+
+      
+
+    </div>
 
     
   </footer>
