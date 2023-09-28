@@ -19,7 +19,7 @@ let googleviewAPIKey = config.googleAPIKEY
 
 
 
-//TODO Change from any button click to specific buttons
+///TODO Change from any button click to specific buttons
 //TODO create an event listener on 'close' modal click event, only if still hiding elements.
 $("button").on("click", function () {
     let videoID = $(this).attr("data-video")
