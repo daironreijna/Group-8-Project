@@ -26,6 +26,7 @@ As a user interested in exploring landmarks around the world, I want to use the 
 
 - [Overview](#overview)
 - [Project Objectives](#project-objectives)
+- [Presentation](#presentation)
 - [Deployment](#deployment)
 - [Project Features](#project-features)
 - [Contributing](#contributing)
@@ -44,6 +45,9 @@ By the end of this project, we have been be able to:
 - Design, build, and deploy a client-side web application using GitHub Pages.
 - Prepare a professional presentation and repository README for our project.
 
+## Presentation
+
+<b><i><span style="color:#800020">Landmark Learning </span></b></i> presentation slides can be accessed in this repo, as a [PDF](./assets/Landmark%20Learning%20Presentation.pdf) or [MP4 Video file](./assets/Landmark%20Learning%20Presentation.mp4).
 
 ## Deployment
 
